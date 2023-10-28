@@ -20,15 +20,12 @@ void useMightGoWrong() {
 int main() {
 	try {
 		//mightGoWrong();
-		useMightGoWrong();		
-	}
-	catch(int e) {
+		useMightGoWrong();
+	} catch(int e) {
 		std::cout << "Error code: " << e << std::endl;
-	}
-	catch(char const* e) {
+	} catch(char const* e) {
 		std::cout << "Error message: " << e << std::endl;
-	}
-	catch(std::string& e) {
+	} catch(std::string& e) {
 		std::cout << "String error message: " << e << std::endl;
 	}
 	std::cout << "Still running" << std::endl;

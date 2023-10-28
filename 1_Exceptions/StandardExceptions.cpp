@@ -9,8 +9,7 @@ class CanGoWrong {
 int main() {
 	try {
 		CanGoWrong wrong;
-	}
-	catch(std::bad_alloc& e) {
+	} catch(std::bad_alloc& e) {
 		std::cout << "Caught exception: " << e.what() << std::endl;
 	}
 	std::cout << "Still running" << std::endl;
